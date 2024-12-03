@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Photo Gallery</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Accessible Photo Gallery</h1>
+  </header>
+
+  <section id="gallery" role="region" aria-labelledby="galleryTitle">
+    <h2 id="galleryTitle">Gallery Section</h2>
+
+    <div class="gallery-container">
+
+      <figure tabindex="0" aria-label="Image 1: Sunset at the beach">
+        <img src="images/sunset.jpg" alt="A vibrant sunset at the beach with waves" />
+        <figcaption>Image 1: Sunset at the Beach</figcaption>
+      </figure>
+
+      
+      <figure tabindex="0" aria-label="Image 2: Mountain Range">
+        <img src="images/snowy.jpeg" alt="A beautiful mountain range covered with snow" />
+        <figcaption>Image 2: Mountain Range</figcaption>
+      </figure>
+
+      
+      <figure tabindex="0" aria-label="Image 3: City Skyline at night">
+        <img src="images/city.jpeg" alt="A city skyline illuminated at night" />
+        <figcaption>Image 3: City Skyline at Night</figcaption>
+      </figure>
+
+  
+
+    </div>
+  </section>
+
+  <footer>
+    <p>Photo Gallery - Made with Accessibility in Mind</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
